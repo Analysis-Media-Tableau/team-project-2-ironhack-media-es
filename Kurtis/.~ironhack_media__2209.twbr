@@ -1,0 +1,2054 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' inline='true' name='federated.1g6xfk71at3mzf1agk9380sgfac6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='IronHack_Media_dataset_corrected' name='excel-direct.136ji5a0vqtmcs14e15rj1wy5u6u'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/kurtiswalton/Ironhack/team-project-2-ironhack-media-es/project_dataset/IronHack_Media_dataset_corrected.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.136ji5a0vqtmcs14e15rj1wy5u6u' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P8298:no:A1:P8298:0' header='yes' outcome='2'>
+            <column datatype='string' name='ID' ordinal='0' />
+            <column datatype='string' name='Business line' ordinal='1' />
+            <column datatype='string' name='Ad channel' ordinal='2' />
+            <column datatype='integer' name='Revenues' ordinal='3' />
+            <column datatype='integer' name='Costs' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='string' name='Currency' ordinal='6' />
+            <column datatype='date' name='Date' ordinal='7' />
+            <column datatype='string' name='Client' ordinal='8' />
+            <column datatype='integer' name='Points of sale' ordinal='9' />
+            <column datatype='integer' name='Connected points' ordinal='10' />
+            <column datatype='integer' name='Client ID' ordinal='11' />
+            <column datatype='integer' name='Country ID' ordinal='12' />
+            <column datatype='integer' name='BusinessLine ID' ordinal='13' />
+            <column datatype='string' name='ID.V2' ordinal='14' />
+            <column datatype='string' name='TextID' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.136ji5a0vqtmcs14e15rj1wy5u6u' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:P8298:no:A1:P8298:0' header='yes' outcome='2'>
+            <column datatype='string' name='ID' ordinal='0' />
+            <column datatype='string' name='Business line' ordinal='1' />
+            <column datatype='string' name='Ad channel' ordinal='2' />
+            <column datatype='integer' name='Revenues' ordinal='3' />
+            <column datatype='integer' name='Costs' ordinal='4' />
+            <column datatype='string' name='Country' ordinal='5' />
+            <column datatype='string' name='Currency' ordinal='6' />
+            <column datatype='date' name='Date' ordinal='7' />
+            <column datatype='string' name='Client' ordinal='8' />
+            <column datatype='integer' name='Points of sale' ordinal='9' />
+            <column datatype='integer' name='Connected points' ordinal='10' />
+            <column datatype='integer' name='Client ID' ordinal='11' />
+            <column datatype='integer' name='Country ID' ordinal='12' />
+            <column datatype='integer' name='BusinessLine ID' ordinal='13' />
+            <column datatype='string' name='ID.V2' ordinal='14' />
+            <column datatype='string' name='TextID' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P8298:no:A1:P8298:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Business line</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Business line]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Business line</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ad channel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ad channel]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ad channel</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenues</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Revenues]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Revenues</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Costs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Costs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Costs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Currency</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Currency]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Currency</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Client</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Client]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Client</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Points of sale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Points of sale]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Points of sale</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Connected points</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Connected points]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Connected points</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Client ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Client ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Client ID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Country ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country ID</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BusinessLine ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BusinessLine ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>BusinessLine ID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID.V2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ID.V2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ID.V2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TextID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[TextID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>TextID</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[BusinessLine ID]' role='dimension' type='ordinal' />
+      <column caption='Cost As Percentage of Revenues' datatype='real' name='[Calculation_155444587778027520]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Costs]) / SUM([Revenues])' />
+      </column>
+      <column caption='Unit' datatype='string' name='[Calculation_155444588545441795]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Currency] = &quot;EUR&quot; THEN &quot;€&quot;&#10;ELSEIF [Currency] = &quot;Peso CO&quot; THEN &quot;COL$&quot; &#10;ELSEIF [Currency] = &quot;Peso MX&quot; THEN &quot;MX$&quot; &#10;END' />
+      </column>
+      <column caption='Profits (€)' datatype='real' name='[Calculation_155444588546179076]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(&#10;    IF [Calculation_155444588545441795] = &apos;€&apos; THEN [Revenues] - [Costs] &#10;    ELSEIF [Calculation_155444588545441795] = &apos;COL$&apos; THEN ([Revenues] - [Costs]) / 4462.58&#10;    ELSEIF [Calculation_155444588545441795] = &apos;MX$&apos; THEN ([Revenues] - [Costs]) / 19.72&#10;    ELSE 0 &#10;    END&#10;)' />
+      </column>
+      <column caption='Profit' datatype='integer' name='[Calculation_155444588546777093]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Revenues])-SUM([Costs])' />
+      </column>
+      <column caption='ROI' datatype='real' name='[Calculation_155444588551618566]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_155444588546777093]/SUM([Costs])' />
+      </column>
+      <column datatype='integer' name='[Client ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Client]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Costs]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Country ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Id.V2' datatype='string' name='[ID.V2]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Revenues]' role='measure' type='quantitative' />
+      <column caption='Text ID' datatype='string' name='[TextID]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_64D099CFE73342C3914352F24BF8E970]' role='measure' type='quantitative' />
+      <column-instance column='[Client ID]' derivation='None' name='[none:Client ID:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Client]' derivation='None' name='[none:Client:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Costs]' derivation='Sum' name='[sum:Costs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Revenues]' derivation='Sum' name='[sum:Revenues:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='/var/folders/n0/_vmv2lw94kg85dwrz8mtn4mr0000gn/T/tableau-temp/#TableauTemp_0ipqyg61u8z27311hpsr01rv39ow.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/24/2024 05:35:16 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1554</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Business line</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Business line]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Business line</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ad channel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ad channel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ad channel</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenues</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Revenues]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenues</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>289</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Costs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Costs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Costs</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>322</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Currency</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Currency]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Currency</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Date</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>308</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Client</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Client]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Client</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>216</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Points of sale</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Points of sale]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Points of sale</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Connected points</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Connected points]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Connected points</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Client ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Client ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Client ID</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>216</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Country ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country ID</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BusinessLine ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BusinessLine ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BusinessLine ID</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ID.V2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ID.V2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID.V2</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>581</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TextID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TextID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TextID</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>581</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LES_RES_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_64D099CFE73342C3914352F24BF8E970]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1g6xfk71at3mzf1agk9380sgfac6].[sum:Costs:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1g6xfk71at3mzf1agk9380sgfac6]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client ID:ok]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g6xfk71at3mzf1agk9380sgfac6].[sum:Revenues:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Client:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;ALACION&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BE S.L.&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;CI FOOD&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DIZALEZ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;ESGESTA&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;GE.L.U.&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;INOCIÓN&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;LU DIAZ&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;NA S.L.&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;PR S.L.&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SAENTIS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;VEPANIA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;4+.R.L.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AUSPORT&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CAASTUR&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;DA 2006&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ED S.L.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;FO S.L.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;HO S.L.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;LE FOOD&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MIELLES&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PALVIRA&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RO S.A.&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;TU.L.U.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AC S.L.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BAMOTOR&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;CAVICES&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DEATION&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;EMADERA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;FU S.A.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;HU S.L.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LI FOOD&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MO S.L.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;PH S.L.&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;RU 2012&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;URH CHC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ALVIEDO&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BI S.A.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;CLVARRA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;DOLEROS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FA C.B.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;GOGRUPO&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;JAELLAN&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MA TEAM&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;NI S.L.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;RA.L.U.&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SEENTES&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;XA S.L.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ALHCARE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BEERREZ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;CI S.A.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;DOANDEZ&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;EU C.B.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GESALON&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;INS J2F&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;LY S.L.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;NA.L.U.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PRIALES&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;SCERICA&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;VI S.L.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ACNTURE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BATARIA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CE S.L.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DEGUERS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;EMNIDOS&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;GA S.L.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;IN S.A.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;LI S.L.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MOORBAN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pl y 13&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SA S.A.&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;VAIANIP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ASARIOS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CA S.L.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CSSPAIN&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ECNOCOM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;FIORESP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;HA S.L.&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LAAMBOR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ME GMBH&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;OSMEQUE&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;REESTIR&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;THN INN&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AB S.A.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BA LOMB&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CACERES&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;DANOVAL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;EDZENIT&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;FOKALDO&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;HOGIJON&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;LE S.L.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MIORATE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;PANCHEZ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ROS.L.&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;TW S.A.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ARSPAÑA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BP.A.U.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;COCAELA&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;DRT BOI&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;FEJANOS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;GU CHAS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;LA S.A.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MANARES&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;OC S.L.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;RE S.A.&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TARIDAD&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;AEHOMES&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BD.L.U.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;CETRIAL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DI S.A.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;EN S.L.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;GAESTRA&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;IN S.L.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;LIVAREZ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MOZALEZ&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PO S.A.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SA S.L.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ve.A.U.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;AM S.L.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BIA KIT&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;CO S.A.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;DOY LAW&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;FA S.L.&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;GOSLERO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;JOLLERO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;MªANDEZ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;NOLONSO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;RAÁNDEZ&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SELERIA&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;YONTUÑA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;AÑ C.B.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BOARCIA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;COADRID&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;DR S.L.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;FE S.A.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;GR S.A.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;KI S.L.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MALERIA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NU S.L.&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;RE 1955&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SO S.A.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;AS S.A.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BURTIVA&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;COPMENT&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;DRVERDE&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;FI S.L.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HA REUS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LA S.L.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;MATIONS&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;OM S.L.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;RE.L.U.&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;TENOBIT&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ASESTOS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CA S.A.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CUENTRO&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ED NAST&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;FL S.L.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;HIGIFAR&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;LAJOFRE&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;METIÈRE&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;OV S.L.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RI S.L.&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;TR S.L.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ALIRALL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BEOP.V.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;CI S.L.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;DOAROTE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;EVBELDE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gm S. A&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;INURIAS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MA DIAZ&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NE FOOD&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PU S.L.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SE S.L.&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;VIONLAB&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;AL S.L.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BE LABS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;CEURIAS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DIFELIU&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ENITION&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;GE S.L.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;IN.L.U.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;LOOTROS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NA HOME&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PO.A.U.&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SA SLNE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;VEACION&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ABSPAÑA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BA S.A.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CAIENDS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;DE S.L.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;EG S.L.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;FR S.L.&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;HOIONES&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LERUGIA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MIORDON&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PAONTES&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ROZ SAL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;U.MOBEL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ARBRIDO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BOCATEX&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;COASTUR&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;DRGROÑO&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;FE S.L.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;GRPIZZA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;KOSPAIN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MAMAYPA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;NUFARMA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;RE C.B.&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;ST S.L.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ALLABRA&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BES.A.U&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CIDISAL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;DOIONES&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;EXHCARE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;GO S.L.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;JA RUIZ&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MA S.L.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;NE S.L.&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;QSATICO&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;SEACIÓN&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Viroski&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ABTICOS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BAA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;CATICOS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DEASTUR&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;EL S.L.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;FRETING&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;HOURIAS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LESTICA&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MISTICS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PE S.L.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;RT S.L.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;UB S.L.&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='ID' />
+        <field-sort-custom-order field='Business line' />
+        <field-sort-custom-order field='Ad channel' />
+        <field-sort-custom-order field='Revenues' />
+        <field-sort-custom-order field='Calculation_155444588546777093' />
+        <field-sort-custom-order field='Calculation_155444588551618566' />
+        <field-sort-custom-order field='Calculation_155444588546179076' />
+        <field-sort-custom-order field='Calculation_155444587778027520' />
+        <field-sort-custom-order field='Costs' />
+        <field-sort-custom-order field='Country' />
+        <field-sort-custom-order field='Currency' />
+        <field-sort-custom-order field='Calculation_155444588545441795' />
+        <field-sort-custom-order field='Date' />
+        <field-sort-custom-order field='Client' />
+        <field-sort-custom-order field='Points of sale' />
+        <field-sort-custom-order field='Connected points' />
+        <field-sort-custom-order field='Client ID' />
+        <field-sort-custom-order field='Country ID' />
+        <field-sort-custom-order field='BusinessLine ID' />
+        <field-sort-custom-order field='ID.V2' />
+        <field-sort-custom-order field='TextID' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_64D099CFE73342C3914352F24BF8E970'>
+            <properties context=''>
+              <relation connection='excel-direct.136ji5a0vqtmcs14e15rj1wy5u6u' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:P8298:no:A1:P8298:0' header='yes' outcome='2'>
+                  <column datatype='string' name='ID' ordinal='0' />
+                  <column datatype='string' name='Business line' ordinal='1' />
+                  <column datatype='string' name='Ad channel' ordinal='2' />
+                  <column datatype='integer' name='Revenues' ordinal='3' />
+                  <column datatype='integer' name='Costs' ordinal='4' />
+                  <column datatype='string' name='Country' ordinal='5' />
+                  <column datatype='string' name='Currency' ordinal='6' />
+                  <column datatype='date' name='Date' ordinal='7' />
+                  <column datatype='string' name='Client' ordinal='8' />
+                  <column datatype='integer' name='Points of sale' ordinal='9' />
+                  <column datatype='integer' name='Connected points' ordinal='10' />
+                  <column datatype='integer' name='Client ID' ordinal='11' />
+                  <column datatype='integer' name='Country ID' ordinal='12' />
+                  <column datatype='integer' name='BusinessLine ID' ordinal='13' />
+                  <column datatype='string' name='ID.V2' ordinal='14' />
+                  <column datatype='string' name='TextID' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Client ID Count'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Client ID count</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='integer' name='[Client ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Client ID]' derivation='CountD' name='[ctd:Client ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Client ID]' derivation='None' name='[none:Client ID:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client ID:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[ctd:Client ID:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{CDEF5948-174D-4346-B7B3-A1FA4E6B27A8}' />
+    </worksheet>
+    <worksheet name='Clients by Largest Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Clients by Largest Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='string' name='[Client]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Revenues]' role='measure' type='quantitative' />
+            <column-instance column='[Client]' derivation='None' name='[none:Client:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenues]' derivation='Sum' name='[sum:Revenues:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]' />
+              <size column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[sum:Revenues:qk]' />
+              <text column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]' />
+              <text column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[sum:Revenues:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{66D91DD0-8F99-4D44-83C9-3F4205DF1EA3}' />
+    </worksheet>
+    <worksheet name='Clients by Largest Revenue (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Clients by Largest Revenue</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='string' name='[Client]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Revenues]' role='measure' type='quantitative' />
+            <column-instance column='[Client]' derivation='None' name='[none:Client:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenues]' derivation='Sum' name='[sum:Revenues:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]' />
+              <size column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[sum:Revenues:qk]' />
+              <text column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]' />
+              <text column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[sum:Revenues:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6A8C3DD0-A0F7-44E4-AB9F-F7A225E6D428}' />
+    </worksheet>
+    <worksheet name='Clients per Business Line'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Clients per Business Line</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='string' name='[Business line]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Client ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Client ID]' derivation='CountD' name='[ctd:Client ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Business line]' derivation='None' name='[none:Business line:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[ctd:Client ID:qk]</rows>
+        <cols>[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk]</cols>
+      </table>
+      <simple-id uuid='{0F423307-DA59-4CEE-B65D-2420FEA60E39}' />
+    </worksheet>
+    <worksheet name='Costs As Percentage of Revenue per Business Line'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Costs As Percentage of Revenue per Business Line</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='string' name='[Business line]' role='dimension' type='nominal' />
+            <column caption='Cost As Percentage of Revenues' datatype='real' name='[Calculation_155444587778027520]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Costs]) / SUM([Revenues])' />
+            </column>
+            <column datatype='integer' name='[Costs]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Revenues]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Business line]' derivation='None' name='[none:Business line:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_155444587778027520]' derivation='User' name='[usr:Calculation_155444587778027520:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1g6xfk71at3mzf1agk9380sgfac6].[usr:Calculation_155444587778027520:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[mn:Date:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[usr:Calculation_155444587778027520:qk]</rows>
+        <cols>([federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk] / [federated.1g6xfk71at3mzf1agk9380sgfac6].[mn:Date:ok])</cols>
+      </table>
+      <simple-id uuid='{E4F259E8-B5F5-4064-BA52-66A8DC5179D5}' />
+    </worksheet>
+    <worksheet name='Currency and Amount by Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Currency and Amount by Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Currency]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Revenues]' role='measure' type='quantitative' />
+            <column-instance column='[Revenues]' derivation='Count' name='[cnt:Revenues:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Currency]' derivation='None' name='[none:Currency:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[cnt:Revenues:qk]</rows>
+        <cols>([federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Currency:nk] / [federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk])</cols>
+      </table>
+      <simple-id uuid='{1CBB65AF-5BAA-467A-B28D-7F63D3478EE9}' />
+    </worksheet>
+    <worksheet name='Distinct Clients per Month'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='string' name='[Business line]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Client]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Client]' derivation='CountD' name='[ctd:Client:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Business line]' derivation='None' name='[none:Business line:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk]' />
+              <text column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[ctd:Client:qk]</rows>
+        <cols>[federated.1g6xfk71at3mzf1agk9380sgfac6].[mn:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{6EFF0D1A-F7CE-4779-815C-0421087B7FD6}' />
+    </worksheet>
+    <worksheet name='Number of Clients by Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column datatype='integer' name='[Client ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Client ID]' derivation='CountD' name='[ctd:Client ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1g6xfk71at3mzf1agk9380sgfac6].[ctd:Client ID:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[ctd:Client ID:qk]</rows>
+        <cols>[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{DF86DD1B-DFBE-47BF-AC6A-B0AFC27D9748}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (IronHack_Media_dataset_corrected)' name='federated.1g6xfk71at3mzf1agk9380sgfac6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g6xfk71at3mzf1agk9380sgfac6'>
+            <column caption='Profit' datatype='integer' name='[Calculation_155444588546777093]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Revenues])-SUM([Costs])' />
+            </column>
+            <column caption='ROI' datatype='real' name='[Calculation_155444588551618566]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_155444588546777093]/SUM([Costs])' />
+            </column>
+            <column datatype='string' name='[Client]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Costs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Revenues]' role='measure' type='quantitative' />
+            <column-instance column='[Client]' derivation='None' name='[none:Client:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_155444588551618566]' derivation='User' name='[pcto:usr:Calculation_155444588551618566:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Calculation_155444588551618566]' derivation='User' name='[usr:Calculation_155444588551618566:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1g6xfk71at3mzf1agk9380sgfac6].[usr:Calculation_155444588551618566:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g6xfk71at3mzf1agk9380sgfac6].[pcto:usr:Calculation_155444588551618566:qk]</rows>
+        <cols>[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]</cols>
+      </table>
+      <simple-id uuid='{65D43774-9370-4190-9CF2-04512E6C155B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Number of Clients by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B7FE5C97-B818-4DCA-8B7B-A077AEB72752}' />
+    </window>
+    <window class='worksheet' name='Currency and Amount by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{11311785-1B5C-443B-9440-8D6DE541A678}' />
+    </window>
+    <window class='worksheet' name='Clients per Business Line'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F35850EA-F648-4DD2-B94E-C62CAE1879DD}' />
+    </window>
+    <window class='worksheet' name='Client ID Count'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{92F83F19-5665-4557-B43D-DC4AB1BE4339}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Distinct Clients per Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Business line:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8155F094-A303-4DC4-8208-3C312A15DE6C}' />
+    </window>
+    <window class='worksheet' name='Costs As Percentage of Revenue per Business Line'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[mn:Date:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{3D89954F-26A6-4B62-9575-7F3A14874CD8}' />
+    </window>
+    <window class='worksheet' name='Clients by Largest Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{89BFC0AD-CB98-4462-A19B-603CB7E2BDCE}' />
+    </window>
+    <window class='worksheet' name='Clients by Largest Revenue (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g6xfk71at3mzf1agk9380sgfac6].[none:Client:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C59DB34D-836D-4153-9581-2FD63C86690F}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{87426DD7-02FC-450F-BF0D-66F742C76832}' />
+    </window>
+  </windows>
+</workbook>
