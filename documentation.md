@@ -32,7 +32,9 @@ Las líneas de negocio con más clientes son Advertising y Hardware, siendo Cont
 
 Cada tres meses se produce una caída pronunciada, siendo más pronunciada hacia finales de año.
 
-El cliente de Ecnocom vale más que todos los demás clientes juntos.
+Hubo un pico en el número de nuevos clientes durante el verano, pero desde entonces ha disminuido sustancialmente.
+
+El cliente Ecnocom vale más que todos los demás clientes juntos.
 
 ### 2. Analisis por Pais
 
