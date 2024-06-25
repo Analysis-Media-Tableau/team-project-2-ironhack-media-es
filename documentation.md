@@ -36,6 +36,8 @@ Hubo un pico en el número de nuevos clientes durante el verano, pero desde ento
 
 El cliente Ecnocom vale más que todos los demás clientes juntos.
 
+![alt text](image-1.png)
+
 ### 2. Analisis por Pais
 
 TBC
