@@ -44,7 +44,7 @@ The comprehensive descriptive analysis of the startup’s data covers the follow
   - Content shows high profitability but needs to manage costs effectively, especially during certain quarters.
   - Hardware demonstrates high revenue but suffers from low ROI due to high maintenance costs.
   - Installation and Maintenance have below-average profits, indicating inefficiencies.
-  - ![Business Line Performance Dashboard](Images/dashboard_overview.png)
+  - ![Business Line Dashbord](<Dashboard_business line.png>)
 
 ### Additional Relevant Analysis
 - **Objective**: Conduct further analyses to gain deeper insights into the business data.
