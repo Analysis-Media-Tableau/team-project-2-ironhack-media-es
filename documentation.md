@@ -28,7 +28,11 @@ El aumento en ingreso a lo largo del tiempo.
 
 ### 1. Analisis por Cliente
 
-TBC
+Las líneas de negocio con más clientes son Advertising y Hardware, siendo Content la que menos clientes tiene.
+
+Cada tres meses se produce una caída pronunciada, siendo más pronunciada hacia finales de año.
+
+El cliente de Ecnocom vale más que todos los demás clientes juntos.
 
 ### 2. Analisis por Pais
 
