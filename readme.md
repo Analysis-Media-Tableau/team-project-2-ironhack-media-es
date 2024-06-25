@@ -26,7 +26,7 @@ The comprehensive descriptive analysis of the startup’s data covers the follow
   - Notable peak in new clients during summer, followed by a significant reduction.
   - The client Ecnocom alone is worth more than all other clients combined, indicating a dependency on a single major client.
 - **Visualization**: 
-  - ![Client Analysis Overview](Images/image-1.png)
+![Client Dashboard](<Client Dashboard.png>)
 
 ### Analysis by Country
 - **Objective**: Evaluate the startup's business performance across different countries.
